@@ -38,10 +38,10 @@
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
-  font-size: 14px;
+  font-size: 40px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: #3e96ba;
   text-decoration: none;
 }
 
@@ -75,3 +75,9 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.navbar-wagon-white {
+  background-color: transparent;
+}
+
+

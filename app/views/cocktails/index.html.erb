@@ -1,0 +1,17 @@
+<div class="home-banner" style='background-image: url( <%= asset_path 'home_banner.jpeg' %>);'>
+  <h1>Mister Cocktail</h1>
+  <p>
+  <span id="banner-typed-text"></span>
+  </p>
+</div>
+
+<ul>
+    <% @cocktails.each do |cocktail| %>
+        <li><%= link_to cocktail.name, cocktail_path(cocktail.id) %></li>
+      <% end %>
+</ul>
+
+
+
+
+
