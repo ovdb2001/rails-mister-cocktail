@@ -1,13 +1,12 @@
+
 <div class="navbar-wagon navbar-fixed-top">
-  <!-- Logo -->
-  <a href="/cocktails" class="navbar-wagon-brand">
-    <img src = <%= asset_path 'logo.png' %> alt="logo">
-  </a>
+      <!-- Logo -->
+      <%= link_to 'Mister Cocktail 123', cocktails_path  %>
 
-
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <a href="/cocktails/new" class="navbar-wagon-item navbar-wagon-link"><i class="fas fa-plus"></i></a>
-  </div>
-</div>
-
-
+      <div class="navbar-wagon-right">
+        <ul class="list-unstyled list-inline">
+        <li><%= link_to 'Add Cocktail', new_cocktail_path, class: 'btn btn-primary btn-nav btn-add' %></li>
+        <li><%= link_to 'All Cocktails', cocktails_path, class: 'btn btn-info btn-nav btn-add' %></li>
+        </ul>
+      </div>
+    </div>
